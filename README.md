@@ -1,75 +1,90 @@
-# React + TypeScript + Vite
+# Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicación personal de portfolio creada con React, TypeScript y Vite.
 
-Currently, two official plugins are available:
+## Descripción
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Esta aplicación muestra proyectos y contenido personal en una página moderna construida con React 19, Tailwind CSS y Vite.
 
-## React Compiler
+## Características
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React con TypeScript
+- Construcción con Vite
+- Estilos con Tailwind CSS
+- Componentes organizados en secciones
+- Imágenes estáticas desde `public/assets`
 
-## Expanding the ESLint configuration
+## Requisitos
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- Node.js 20 o superior
+- pnpm instalado (recomendado) o npm
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## Instalación
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-
+```bash
+pnpm install
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Si usas npm:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-
+```bash
+npm install
 ```
+
+## Desarrollo
+
+```bash
+pnpm dev
+```
+
+Abre `http://localhost:5173` en el navegador.
+
+## Build de producción
+
+```bash
+pnpm build
+```
+
+## Previsualización
+
+```bash
+pnpm preview
+```
+
+## Estructura principal
+
+- `src/`
+  - `App.tsx` - Componente raíz
+  - `main.tsx` - Punto de entrada
+  - `components/`, `layout/`, `sections/`, `ui/` - Componentes organizados
+  - `data/` - Datos del portfolio
+  - `types/` - Tipos TypeScript
+- `public/assets/images/` - Imágenes estáticas accesibles desde `/assets/images/...`
+
+## Uso de imágenes
+
+Las imágenes en `public/` se sirven como archivos estáticos. Por ejemplo:
+
+```ts
+imageUrl: "/assets/images/carritoShop.png"
+```
+
+## Scripts disponibles
+
+- `pnpm dev` / `npm run dev` — inicia el servidor de desarrollo
+- `pnpm build` / `npm run build` — construye la app para producción
+- `pnpm preview` / `npm run preview` — previsualiza la build
+- `pnpm lint` / `npm run lint` — ejecuta ESLint
+
+## Dependencias clave
+
+- `react`
+- `react-dom`
+- `vite`
+- `tailwindcss`
+- `@vitejs/plugin-react`
+- `typescript`
+
+## Licencia
+
+Este proyecto es usado como portfolio personal.
