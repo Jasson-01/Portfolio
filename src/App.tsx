@@ -1,24 +1,15 @@
-import { useState } from "react"
+import Layout from "./components/layout/Layout"
 
-const Display = ({counter}) => <div>{counter}</div>
- 
-const Boton = ({onClick, text}) =>  <button onClick={onClick}>{text}</button>
-
-function App() {
-  const [count, setCount] = useState(0);
-
-  const handleIncrement = () => setCount(prevCount => prevCount + 1);
-  const handleDecrement = () => setCount(prevCount => prevCount - 1);
-  const handleReset = () => setCount(0);
-  
+const App = () => {
   return (
-    <>
-      <Display counter={count}></Display>
-      <Boton onClick={handleIncrement} text="+"></Boton>
-      <Boton onClick={handleDecrement} text="-"></Boton>
-      <Boton onClick={handleReset} text="reset to zero"></Boton>
-
-    </>
+    <Layout>
+       <div>
+         <section className="min-h-screen" id="about">About</section>
+         <section className="min-h-screen" id="projects">Projects</section>
+         <section className="min-h-screen" id="skills">Skills</section>
+         <section className="min-h-screen" id="contact">Contact</section>
+       </div>
+    </Layout>
   )
 }
 
