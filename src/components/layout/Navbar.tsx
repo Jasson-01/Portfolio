@@ -25,9 +25,9 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="flex items-center gap-x-3 bg-blue-300 ">
-        <img src={LogoGitHub} alt="GitHub" className="h-6 w-6" />
-        <img src={LogoLinkedin} alt="LinkedIn" className="h-6 w-6" />
-        <img src={LogoEmail} alt="Gmail" className="h-6 w-6" />
+        <img src={LogoGitHub} alt="GitHub" className="h-7 w-7" />
+        <img src={LogoLinkedin} alt="LinkedIn" className="h-5 w-6" />
+        <img src={LogoEmail} alt="Gmail" className="h-7 w-7" />
       </div>
     </div>
   );
