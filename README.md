@@ -25,12 +25,6 @@ Esta aplicación muestra proyectos y contenido personal en una página moderna c
 pnpm install
 ```
 
-Si usas npm:
-
-```bash
-npm install
-```
-
 ## Desarrollo
 
 ```bash
