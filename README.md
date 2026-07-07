@@ -45,6 +45,20 @@ pnpm build
 pnpm preview
 ```
 
+## Uso de Biome
+
+Este proyecto usa Biome para revisar y formatear el código en `src/`.
+
+```bash
+pnpm lint
+pnpm format
+pnpm check
+```
+
+- `pnpm lint` — revisa el código con Biome.
+- `pnpm format` — formatea los archivos de `src/`.
+- `pnpm check` — formatea y corrige problemas de estilo y calidad.
+
 ## Estructura principal
 
 - `src/`
@@ -65,10 +79,10 @@ imageUrl: "/assets/images/carritoShop.png"
 
 ## Scripts disponibles
 
-- `pnpm dev` / `npm run dev` — inicia el servidor de desarrollo
-- `pnpm build` / `npm run build` — construye la app para producción
-- `pnpm preview` / `npm run preview` — previsualiza la build
-- `pnpm lint` / `npm run lint` — ejecuta ESLint
+- `pnpm dev`  — inicia el servidor de desarrollo
+- `pnpm build` — construye la app para producción
+- `pnpm preview`  — previsualiza la build
+- `pnpm lint`  — ejecuta ESLint
 
 ## Dependencias clave
 
