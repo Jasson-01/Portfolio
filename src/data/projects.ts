@@ -1,4 +1,4 @@
-import logoGsap from "../../assets/icons/logo-gsap.svg";
+import logoGsap from "../assets/icons/logo-gsap.svg";
 import type { Project } from "../types";
 
 export const projects: Project[] = [
