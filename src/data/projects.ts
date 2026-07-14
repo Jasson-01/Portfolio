@@ -34,7 +34,7 @@ export const projects: Project[] = [
 			},
 		],
 		gitHubUrl: "https://github.com/Jasson-01/Carrito-de-Compras.git",
-		imageUrl: "/assets/images/carritoShop.png",
+		imageUrl: "/assets/images_projects/carritoShop.png",
 	},
 	{
 		id: "2",
@@ -58,5 +58,6 @@ export const projects: Project[] = [
 		],
 		gitHubUrl: "https://github.com/Jasson-01/landing-gta-vi.git",
 		imageUrl: "/assets/images_projects/landingPage_viceCity.png",
+		liveUrl: "https://landing-gta-vi-three.vercel.app/"
 	},
 ];

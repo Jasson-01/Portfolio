@@ -7,9 +7,8 @@ const App = () => {
 		<Layout>
 			<div>
 				<Hero></Hero>
-				<Projects></Projects>
-				<section className="min-h-screen" id="projects">
-					Projects
+				<section id="projects" className="min-h-screen" >
+					<Projects></Projects>	
 				</section>
 				<section className="min-h-screen" id="skills">
 					Skills
