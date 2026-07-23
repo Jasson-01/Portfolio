@@ -9,14 +9,18 @@ const App = () => {
 		<Layout>
 			<div>
 
-				<Hero></Hero>
+				<div id="home" className="min-h-screen">
+					<Hero></Hero>
+				</div>
 
 				<div id="projects" className="min-h-screen">
 			    	<Projects ></Projects>
 				</div>
+
 				<div id="skills" className="min-h-screen">
 			     	<Skills></Skills>
 				</div>
+
 				<div id="contact" className="min-h-screen">
 			    	<Contact></Contact>
 				</div>
