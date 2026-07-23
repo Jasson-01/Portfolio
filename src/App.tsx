@@ -1,21 +1,25 @@
 import Layout from "./components/layout/Layout";
+import Contact from "./components/sections/Contact";
 import Hero from "./components/sections/Hero";
 import Projects from "./components/sections/Projects";
+import Skills from "./components/sections/Skills";
 
 const App = () => {
 	return (
 		<Layout>
 			<div>
+
 				<Hero></Hero>
-				<section id="projects" className="min-h-screen" >
-					<Projects></Projects>	
-				</section>
-				<section className="min-h-screen" id="skills">
-					Skills
-				</section>
-				<section className="min-h-screen" id="contact">
-					Contact
-				</section>
+
+				<div id="projects" className="min-h-screen">
+			    	<Projects ></Projects>
+				</div>
+				<div id="skills" className="min-h-screen">
+			     	<Skills></Skills>
+				</div>
+				<div id="contact" className="min-h-screen">
+			    	<Contact></Contact>
+				</div>
 			</div>
 		</Layout>
 	);

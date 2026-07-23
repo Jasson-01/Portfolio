@@ -58,6 +58,6 @@ export const projects: Project[] = [
 		],
 		gitHubUrl: "https://github.com/Jasson-01/landing-gta-vi.git",
 		imageUrl: "/assets/images_projects/landingPage_viceCity.png",
-		liveUrl: "https://landing-gta-vi-three.vercel.app/"
+		liveUrl: "https://landing-gta-vi-three.vercel.app/",
 	},
 ];

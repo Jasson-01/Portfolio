@@ -3,47 +3,57 @@ import type { Skill } from "../types";
 export const skills: Skill[] = [
 	{
 		name: "html",
-		icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg",
+		icon: "https://skillicons.dev/icons?i=html&theme=dark",
 		category: "frontend",
+		description: "Estructura base de páginas web"
 	},
 	{
 		name: "SQL",
-		icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqlite/sqlite-original.svg",
+		icon: "https://skillicons.dev/icons?i=sqlite&theme=dark",
 		category: "backend",
+		description: "Gestión de bases de datos relacionales"
 	},
 	{
 		name: "GitHub",
-		icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg",
+		icon: "https://skillicons.dev/icons?i=github&theme=dark",
 		category: "tools",
+		description: "Control de versiones"
 	},
 	{
 		name: "Java",
-		icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg",
+		icon: "https://skillicons.dev/icons?i=java&theme=dark",
 		category: "tools",
+		description: "Lenguaje de programación orientado a objetos"
 	},
 	{
 		name: "React",
-		icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
+		icon: "https://skillicons.dev/icons?i=react&theme=dark",
 		category: "frontend",
+		description: "JavaScript Library"
+
 	},
 	{
 		name: "TypeScript",
-		icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg",
+		icon: "https://skillicons.dev/icons?i=ts&theme=dark",
 		category: "frontend",
+		description: "JavaScript but better"
 	},
 	{
 		name: "Tailwind",
-		icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original-wordmark.svg",
+		icon: "https://skillicons.dev/icons?i=tailwind&theme=dark",
 		category: "frontend",
+		description: "Framework CSS utilitario"
 	},
 	{
-		name: "Node",
-		icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg",
+		name: "NodeJS",
+		icon: "https://skillicons.dev/icons?i=nodejs&theme=dark",
 		category: "backend",
+		description: "Entorno de ejecución para JavaScript"
 	},
 	{
 		name: "Express",
-		icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg",
+		icon: "https://skillicons.dev/icons?i=express&theme=dark",
 		category: "backend",
+		description: "Framework minimalista para APIs"
 	},
 ];

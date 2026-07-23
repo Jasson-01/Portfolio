@@ -6,9 +6,9 @@ const Navbar = () => {
 	return (
 		<div className="sticky top-0 z-10 flex justify-between gap-x-4 bg-blue-300 px-6 py-4">
 			<div className="font-bold">
-				<p className="flex items-center gap-x-2 cursor-pointer px-4 py-2">
+				<a href="/" className="flex items-center gap-x-2 cursor-pointer px-4 py-2">
 					JADB
-				</p>
+				</a>
 			</div>
 			<div>
 				<ul className="flex gap-x-8 list-none font-semibold text-lg ">
