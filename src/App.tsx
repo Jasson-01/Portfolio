@@ -8,22 +8,21 @@ const App = () => {
 	return (
 		<Layout>
 			<div>
-
-				<div id="home" className="min-h-screen">
+				<div id="home" className="scroll-mt-24 min-h-screen">
 					<Hero></Hero>
 				</div>
 
-				<div id="projects" className="min-h-screen">
-			    	<Projects ></Projects>
+				<div id="projects" className="scroll-mt-24 py-24">
+					<Projects></Projects>
 				</div>
 
-				<div id="skills" className="min-h-screen">
-			     	<Skills></Skills>
+				<div id="skills" className="scroll-mt-24 py-24">
+					<Skills></Skills>
 				</div>
 
-				<div id="contact" className="min-h-screen">
-			    	<Contact></Contact>
-				</div>
+				<div id="contact" className="scroll-mt-24 py-24">
+					<Contact></Contact>
+				</div>               
 			</div>
 		</Layout>
 	);

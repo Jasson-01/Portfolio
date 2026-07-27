@@ -12,17 +12,17 @@ const Navbar = () => {
 			</div>
 			<div>
 				<ul className="flex gap-x-8 list-none font-semibold text-lg ">
-					<li className="px-4 py-2  hover:bg-gray-500/30">
-						<a href="#home">Home</a>
+					<li>
+						<a className="px-4 py-2 inline-block  hover:bg-gray-500/30" href="#home">Home</a>
 					</li>
-					<li className="px-4 py-2  hover:bg-gray-500/30">
-						<a href="#projects">Projects</a>
+					<li >
+						<a className="px-4 py-2  hover:bg-gray-500/30 inline-block" href="#projects">Projects</a>
 					</li>
-					<li className="px-4 py-2  hover:bg-gray-500/30">
-						<a href="#skills">Skills</a>
+					<li >
+						<a className="px-4 py-2  hover:bg-gray-500/30 inline-block"   href="#skills">Skills</a>
 					</li>
-					<li className="px-4 py-2  hover:bg-gray-500/30">
-						<a href="#contact">Contact</a>
+					<li >
+						<a className="px-4 py-2  hover:bg-gray-500/30 inline-block" href="#contact">Contact</a>
 					</li>
 				</ul>
 			</div>

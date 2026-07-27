@@ -25,7 +25,7 @@ const Projects = () => {
 	);
 
 	return (
-		<div className="px-60 max-w-7xl mx-auto flex flex-col justify-start min-h-[calc(100vh-60px)]">
+		<div className="px-60 max-w-7xl mx-auto flex flex-col justify-start py-8">
 			<h2 className="text-5xl font-bold">Proyectos</h2>
 			<div className="flex flex-row items-center gap-x-6">
 				<button
