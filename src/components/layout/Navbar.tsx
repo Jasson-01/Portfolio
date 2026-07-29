@@ -10,7 +10,7 @@ const Navbar = () => {
 		<nav
 			className={`sticky top-0 w-full z-50 backdrop-blur-2xl ${isScrolled ? 'bg-blue-300/70' : 'bg-blue-300'  }`}
 		>
-			<div className="flex max-w-7xl mx-auto  items-center justify-between py-2.5 px-2 md:px-4">
+			<div className="flex max-w-8xl mx-auto  items-center justify-between py-2.5 px-2 md:px-5">
 				{/* Logo */}
 				<a
 					href="/"
