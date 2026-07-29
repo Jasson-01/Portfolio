@@ -38,7 +38,7 @@ export const projects: Project[] = [
 	},
 	{
 		id: "2",
-		title: "Lamding page of Vice City VI",
+		title: "Landing page of Vice City VI",
 		description:
 			"El repositorio “landing-gta-vi” es un proyecto de práctica que recrea la landing page oficial de Grand Theft Auto VI usando tecnologías modernas como Astro, React y GSAP, con un diseño responsivo y animaciones suaves para simular la estética de Rockstar Games.",
 		techStack: [

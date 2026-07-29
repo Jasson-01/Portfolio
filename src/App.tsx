@@ -8,19 +8,19 @@ const App = () => {
 	return (
 		<Layout>
 			<div>
-				<div id="home" className="scroll-mt-24 min-h-screen">
+				<div id="home" className="scroll-mt-24">
 					<Hero></Hero>
 				</div>
 
-				<div id="projects" className="scroll-mt-24 py-24">
+				<div id="projects" className="scroll-mt-24 py-0">
 					<Projects></Projects>
 				</div>
 
-				<div id="skills" className="scroll-mt-24 py-24">
+				<div id="skills" className="scroll-mt-24 py-0">
 					<Skills></Skills>
 				</div>
 
-				<div id="contact" className="scroll-mt-24 py-24">
+				<div id="contact" className="scroll-mt-24 py-0">
 					<Contact></Contact>
 				</div>               
 			</div>

@@ -1,13 +1,13 @@
 const Hero = () => {
 	return (
-		<section className="flex flex-col justify-start pt-44 items-center scroll-mt-24 px-6 py-24 bg-linear-to-b from-blue-300 to-white">
-			<div className="flex gap-x-12 justify-center items-start">
-				<div className="flex flex-col justify-start items-stretch space-y-8">
-					<h1 className="text-6xl font-bold tracking-tight">
-						Jasson A. Davila <br />
+		<section className="flex min-h-screen flex-col justify-start pt-44 items-center scroll-mt-24 px-6 bg-linear-to-br from-blue-600 via-blue-500 to-white">
+			<div className="flex w-full max-w-7xl flex-col items-center justify-center gap-16 lg:flex-row lg:items-center">
+				<div className="flex max-w-2xl flex-col items-center space-y-8 text-center lg:items-start lg:text-left">
+					<h1 className="text-4xl font-bold tracking-tight text-white sm:text-6xl lg:text-7xl">
+						Hola, soy <br /> Jasson A. Davila <br />
 						Bustamante
 					</h1>
-					<p className="max-w-md text-gray-800 text-2xl">
+					<p className="max-w-xl text-lg  text-blue-50 leading-relaxed sm:text-2xl">
 						Estudiante de Ciencias de la Computación en la Universidad de Buenos
 						Aires, me apasiona la tecnología. Estoy comprometido con el
 						aprendizaje continuo y busco oportunidades para aplicar mis
@@ -15,7 +15,7 @@ const Hero = () => {
 						tecnológicas innovadoras.
 					</p>
 				</div>
-				<div className="w-96 h-96 object-cover">
+				<div className="w-80 h-80 rounded-4xl overflow-hidden shadow-2xl object-cover sm:w-96 sm:h-96">
 					<img
 						className="w-full h-full object-cover"
 						src="/assets/images_perfil/jason-perfil-2.png"

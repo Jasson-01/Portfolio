@@ -8,6 +8,18 @@ export const skills: Skill[] = [
 		description: "Estructura base de páginas web"
 	},
 	{
+        name: "CSS",
+		icon: "https://skillicons.dev/icons?i=css&theme=dark",
+		category: "frontend",
+		description: "Estilos y diseño visual para web"
+	},
+	{
+        name: "JavaScript",
+		icon: "https://skillicons.dev/icons?i=js&theme=dark",
+		category: "frontend",
+		description: "Construcción de interfaces interactivas"
+	},
+	{
 		name: "SQL",
 		icon: "https://skillicons.dev/icons?i=sqlite&theme=dark",
 		category: "backend",
@@ -19,12 +31,12 @@ export const skills: Skill[] = [
 		category: "tools",
 		description: "Control de versiones"
 	},
-	{
-		name: "Java",
-		icon: "https://skillicons.dev/icons?i=java&theme=dark",
-		category: "tools",
-		description: "Lenguaje de programación orientado a objetos"
-	},
+	// {
+	// 	name: "Java",
+	// 	icon: "https://skillicons.dev/icons?i=java&theme=dark",
+	// 	category: "tools",
+	// 	description: "Lenguaje de programación orientado a objetos"
+	// },
 	{
 		name: "React",
 		icon: "https://skillicons.dev/icons?i=react&theme=dark",
@@ -50,10 +62,10 @@ export const skills: Skill[] = [
 		category: "backend",
 		description: "Entorno de ejecución para JavaScript"
 	},
-	{
-		name: "Express",
-		icon: "https://skillicons.dev/icons?i=express&theme=dark",
-		category: "backend",
-		description: "Framework minimalista para APIs"
-	},
+	// {
+	// 	name: "Express",
+	// 	icon: "https://skillicons.dev/icons?i=express&theme=dark",
+	// 	category: "backend",
+	// 	description: "Framework minimalista para APIs"
+	// },
 ];
