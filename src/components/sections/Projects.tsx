@@ -26,10 +26,10 @@ const Projects = () => {
 
 	return (
 	
-		<section className="flex min-h-screen bg-slate-300  flex-col justify-start  items-center scroll-mt-24 px-4 py-0 sm:px-8 lg:px-12">
+		<section className="flex flex-col items-center scroll-mt-24 px-4 py-10 sm:px-8 sm:py-12 lg:px-12 lg:py-14">
 			<div className="mx-aut w-full max-w-7xl">
 				<div className="mb-6">
-					<p className="text-4xl font-extrabold uppercase tracking-tight text-blue-600 sm:text-5xl ">
+					<p className="text-4xl font-extrabold uppercase tracking-tight text-slate-900 sm:text-5xl ">
 						Proyectos
 					</p>
 				</div>

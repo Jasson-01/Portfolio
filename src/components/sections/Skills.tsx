@@ -9,7 +9,7 @@ const Skills = () => {
 	const toolskills = skills.filter((skill) => skill.category === "tools");
 	// En el return va solo codigo JSX
 	return (
-		<section className="flex min-h-screen flex-col items-center justify-start bg-slate-400 px-4 py-8 scroll-mt-24 sm:px-8 lg:px-12">
+		<section className="flex flex-col items-center justify-start px-4 py-10 scroll-mt-24 sm:px-8 sm:py-12 lg:px-12 lg:py-14">
 			<div className="mx-auto w-full max-w-7xl">
 				<div className="mb-8">
 					<p className="text-4xl font-extrabold uppercase tracking-tight text-blue-600 sm:text-5xl">
@@ -17,7 +17,7 @@ const Skills = () => {
 					</p>
 				</div>
 
-				<div className="space-y-10">
+				<div className="space-y-10  ml-11">
 					<div>
 						<h3 className="mb-4 text-2xl font-bold text-gray-900">Frontend</h3>
 						<div className="grid gap-4 md:grid-cols-2 xl:grid-cols-4">

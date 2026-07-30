@@ -6,7 +6,7 @@ const Contact = () => {
 	const [message, setMessage] = useState("");
 
 	return (
-		<section className="flex min-h-screen flex-col items-center justify-start bg-slate-300 px-4 py-8 scroll-mt-24 sm:px-8 lg:px-12">
+		<section className="flex flex-col items-center justify-start px-4 py-10 scroll-mt-24 sm:px-8 sm:py-12 lg:px-12 lg:py-14">
 			<div className="mx-auto w-full max-w-7xl">
 				<div className="mb-8">
 					<p className="text-4xl font-extrabold uppercase tracking-tight text-blue-600 sm:text-5xl">

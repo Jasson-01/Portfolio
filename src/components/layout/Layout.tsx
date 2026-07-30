@@ -8,7 +8,7 @@ type LayoutProps = {
 
 const Layout = ({ children }: LayoutProps) => {
 	return (
-		<div className="bg-slate-50">
+		<div className="min-h-screen bg-linear-to-b from-blue-600/70 via-cyan- to-gray">
 			<Navbar />
 			{children}
 			<Footer />
