@@ -1,13 +1,15 @@
+
+
 const Hero = () => {
 	return (
-		<section className="flex min-h-[75vh] flex-col justify-start pt-16 pb-10 items-center scroll-mt-24 px-6 sm:pt-20 sm:pb-14 lg:pt-24 lg:pb-16 bg-transparent">
+		<section className={`flex min-h-[75vh] flex-col justify-start pt-16 pb-10 items-center scroll-mt-24 px-6 sm:pt-20 sm:pb-14 lg:pt-24 lg:pb-16 bg-[url(src/assets/animations/Animated_Shape2.svg)]`}>
 			<div className="flex w-full max-w-7xl flex-col items-center justify-center gap-16 lg:flex-row lg:items-center">
 				<div className="flex max-w-2xl flex-col items-center space-y-8 text-center lg:items-start lg:text-left">
-					<h1 className="text-4xl font-bold tracking-tight text-slate-900 sm:text-6xl lg:text-7xl">
+					<h1 className="text-4xl font-bold tracking-tight text-slate-950 sm:text-6xl lg:text-7xl">
 						Hola, soy <br /> Jasson A. Davila <br />
 						Bustamante
 					</h1>
-					<p className="max-w-xl text-lg text-slate-700 leading-relaxed sm:text-2xl">
+					<p className="max-w-xl font-semibold text-lg text-slate-950 leading-relaxed sm:text-2xl">
 						Estudiante de Ciencias de la Computación en la Universidad de Buenos
 						Aires, me apasiona la tecnología. Estoy comprometido con el
 						aprendizaje continuo y busco oportunidades para aplicar mis
@@ -16,8 +18,7 @@ const Hero = () => {
 					</p>
 					<div className="flex justify-center lg:justify-start">
 						<a
-							href="/CV.pdf"
-							target="_blank"
+							href="#contact"
 							rel="noopener noreferrer"
 							className="rounded-full bg-blue-600 px-5 py-3 text-sm font-semibold text-white shadow-md transition hover:bg-blue-700"
 						>
