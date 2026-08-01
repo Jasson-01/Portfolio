@@ -1,4 +1,5 @@
 import { useState } from "react";
+import loaderCat from "../../assets/animations/Loader_cat.svg";
 
 const Contact = () => {
 	const [name, setName] = useState("");
@@ -16,15 +17,23 @@ const Contact = () => {
 
 				<div className="grid gap-8 rounded-4xl border border-gray-200 bg-white p-6 shadow-xl lg:grid-cols-[1.1fr_0.9fr] lg:p-10">
 					<div className="flex flex-col justify-center rounded-3xl bg-linear-to-br from-blue-600 to-cyan-400 p-8 text-white">
-						<p className="mb-3 text-sm font-semibold uppercase tracking-[0.3rem]">
+						<p className="mb-3 text-sm font-semibold uppercase tracking-[0.2rem]">
 							Hablemos
 						</p>
 						<h3 className="text-3xl font-bold">
 							¿Tienes un proyecto en mente?
 						</h3>
-						<div className="mt-6 space-y-2 text-sm">
+						<div className="mt-6 space-y-2 text-base">
 							<p>📧 jasson.davila001@gmail.com</p>
 							<p>📍 Buenos Aires, Argentina</p>
+						</div>
+
+						<div className="flex justify-end">
+							<img
+								src={loaderCat}
+								alt="Gato animado"
+								className="h-28 w-auto max-w-full drop-shadow-lg sm:h-32 lg:h-36"
+							/>
 						</div>
 					</div>
 
